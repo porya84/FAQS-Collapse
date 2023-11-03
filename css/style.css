@@ -49,6 +49,7 @@ p {
 }
 
 .answers {
+    display: none;
     margin-top: 50px;
     text-align: left;
     margin-left: 30px;
