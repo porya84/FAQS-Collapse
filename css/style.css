@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 739px;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    margin-top: 100px;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.FAQS_body {
+    height: auto;
+    text-align: -webkit-center;
+}
+
+.FAQS_body h1 {
+    margin-bottom: 75px;
+}
+
+.question_body {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #dfe6e9;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.title_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    max-width: 450px;
+    text-align: left;
+    display: inline;
+}
+
+.answers {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+/* icons */
+.gg-math-plus,
+.gg-math-plus::after {
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    border-radius: 10px
+}
+
+.gg-math-plus {
+    margin-bottom: -8px;
+    margin-top: -2px;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 2px
+}
+
+.gg-math-plus::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    top: -7px;
+    left: 7px
+}
+
+.gg-math-minus {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 10px
+}
+
+
+
+@media screen and (max-width : 575px) {
+    .container {
+        margin: 0 32px;
+    }
+
+    .title {
+        max-width: 200px;
+    }
+}
